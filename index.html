@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        line-height: 1.5;
+      }
+
+      .todo-container {
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="todo-container">
+      <div class="tasks-wrapper">
+        <h2>Task list</h2>
+        <ul id="todo-list">
+          <li>Watch video tutorial</li>
+          <li>Write a summary</li>
+          <li>Read about CORS</li>
+        </ul>
+      </div>
+      <form id="todo-form">
+        <input
+          type="text"
+          id="todo-input"
+          placeholder="Enter the name of the task"
+        />
+        <button type="submit">Add a task</button>
+
+        <script src="./main.js"></script>
+      </form>
+    </div>
+  </body>
+</html>
